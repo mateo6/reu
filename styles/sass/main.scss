@@ -1,0 +1,224 @@
+@import "compass";
+
+h5 {
+	color: #616466;
+}
+
+h4 {
+	color: #579B51;
+	font-size: 18px;
+}
+
+$box-padding: 6px;
+$header-height: 60px;
+
+body {
+	font-family: arial;
+	background:  rgb(245, 245, 244);
+}
+
+.header{
+
+	background-color: rgb(244,244,244); // Old browsers
+	@include filter-gradient(#f4f4f4, #eaeaea, vertical); // IE6-8
+	// IE9 SVG, needs conditional override of 'filter' to 'none'
+	$experimental-support-for-svg: true;
+	@include background-image(linear-gradient(top,  rgba(244,244,244,1) 0%,rgba(234,234,234,1) 100%));
+
+	border-bottom: 1px solid rgb(186, 182, 207);
+
+	width: 100%;
+	height: $header-height;
+	line-height: $header-height;
+	color: #616466;
+}
+
+.panel {
+	width: 1000px;
+	margin:auto;
+	position: relative;
+	padding: 0px 10px;
+}
+
+.main-content {
+	width: 100%;
+	background: rgba(245, 245, 245, 0.6);
+}
+
+#banner {
+	text-align: center;
+}
+
+.footer {
+	width: 100%;
+	/*	background: #F5F5F5;*/
+	background-color: rgb(244,244,244); // Old browsers
+	@include filter-gradient(#f4f4f4, #eaeaea, vertical); // IE6-8
+	// IE9 SVG, needs conditional override of 'filter' to 'none'
+	$experimental-support-for-svg: true;
+	@include background-image(linear-gradient(top,  rgba(244,244,244,1) 0%,rgba(234,234,234,1) 100%));
+	border-top: 1px solid #bebebe;
+	height:200px;
+}
+
+.menu {
+	display: block;
+	float: right;
+	height: 100%;
+	ul {
+		list-style-type: none;
+	}
+	li {
+		display: inline-block;
+		padding: 0px 10px;
+		cursor: pointer;
+	}
+}
+
+.hover-menu >li:hover{
+	background:#DDDDDD;
+}
+
+#logo {
+	height: $header-height - 15px;
+	width: $header-height - 15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#title {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.left-header {
+	float: left;
+	height: $header-height;
+}
+
+.sub-header {
+	border-bottom: 1px solid #485C4B;
+	background-color: rgb(49, 134, 76);
+	height: $header-height/2;
+	width: 100%;
+	line-height: $header-height/2;
+	.menu {
+		ul{
+			display: none;
+			color: #B2DBA5;
+			li{
+				&:hover{
+					color:#2E4E31;
+				}
+			}
+		}
+	}
+}
+
+.box {
+	display: inline-block;
+	margin: 30px 50px;
+	li{
+		cursor: pointer;
+		&:hover{
+			color:#e03037;
+		}
+	}
+	p{
+		font-size: 12px;
+	}
+	h5 {
+		color: #579B51;
+	}
+}
+
+.card {
+	background-color: #fff;
+	border: solid 1px #DDDCDC;
+	margin: 3px;
+	position: relative;
+	color:#2E4E31;
+}
+
+#news {
+	width: 315px;
+	li {
+		border-bottom: 1px solid #ECECEC;
+		padding:$box-padding;
+		cursor: pointer;
+		&:hover {
+			color:#579B51;
+		}
+	}
+	h4 {
+		padding: $box-padding;
+	}
+	height: 174px;
+	padding-top:10px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.r-panel {
+	width: 645px;
+	padding: $box-padding;
+	padding-left:$box-padding +11;
+	padding-top:15px;
+	height: 163px;
+	float: right;
+}
+
+.featured {
+	padding: $box-padding;
+	padding-top:13px;
+	text-align: center;
+	padding-bottom: 17px;
+}
+
+.sub-card {
+	width:200px;
+	height:200px;
+	background: white;
+	border: 2px solid #616466;
+	float: left;
+	margin: 5px 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	&:hover {
+		border: 2px solid #E03037;
+	}
+}
+
+#r1 {
+	background: url('../../img/r1.jpg') no-repeat;
+}
+
+#r2 {
+	background: url('../../img/r2.jpg') no-repeat;
+}
+
+#r3 {
+	background: url('../../img/r3.jpg') no-repeat;
+}
+
+.aligner {
+	width: 896px;
+	margin:auto;
+}
+
+#title {
+	color: #507AA2;
+}
+
+.f-header {
+	text-align:left; padding-bottom: 5px; color:#E03037
+}

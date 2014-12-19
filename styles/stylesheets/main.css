@@ -1,0 +1,263 @@
+/* line 3, ../sass/main.scss */
+h5 {
+  color: #616466;
+}
+
+/* line 7, ../sass/main.scss */
+h4 {
+  color: #579B51;
+  font-size: 18px;
+}
+
+/* line 15, ../sass/main.scss */
+body {
+  font-family: arial;
+  background: #f5f5f4;
+}
+
+/* line 20, ../sass/main.scss */
+.header {
+  background-color: #f4f4f4;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFF4F4F4', endColorstr='#FFEAEAEA');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VhZWFlYSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f4f4f4), color-stop(100%, #eaeaea));
+  background-image: -webkit-linear-gradient(top, #f4f4f4 0%, #eaeaea 100%);
+  background-image: -moz-linear-gradient(top, #f4f4f4 0%, #eaeaea 100%);
+  background-image: -o-linear-gradient(top, #f4f4f4 0%, #eaeaea 100%);
+  background-image: linear-gradient(top, #f4f4f4 0%, #eaeaea 100%);
+  border-bottom: 1px solid #bab6cf;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  color: #616466;
+}
+
+/* line 36, ../sass/main.scss */
+.panel {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  padding: 0px 10px;
+}
+
+/* line 43, ../sass/main.scss */
+.main-content {
+  width: 100%;
+  background: rgba(245, 245, 245, 0.6);
+}
+
+/* line 48, ../sass/main.scss */
+#banner {
+  text-align: center;
+}
+
+/* line 52, ../sass/main.scss */
+.footer {
+  width: 100%;
+  /*	background: #F5F5F5;*/
+  background-color: #f4f4f4;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFF4F4F4', endColorstr='#FFEAEAEA');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VhZWFlYSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f4f4f4), color-stop(100%, #eaeaea));
+  background-image: -webkit-linear-gradient(top, #f4f4f4 0%, #eaeaea 100%);
+  background-image: -moz-linear-gradient(top, #f4f4f4 0%, #eaeaea 100%);
+  background-image: -o-linear-gradient(top, #f4f4f4 0%, #eaeaea 100%);
+  background-image: linear-gradient(top, #f4f4f4 0%, #eaeaea 100%);
+  border-top: 1px solid #bebebe;
+  height: 200px;
+}
+
+/* line 64, ../sass/main.scss */
+.menu {
+  display: block;
+  float: right;
+  height: 100%;
+}
+/* line 68, ../sass/main.scss */
+.menu ul {
+  list-style-type: none;
+}
+/* line 71, ../sass/main.scss */
+.menu li {
+  display: inline-block;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+/* line 78, ../sass/main.scss */
+.hover-menu > li:hover {
+  background: #DDDDDD;
+}
+
+/* line 82, ../sass/main.scss */
+#logo {
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 89, ../sass/main.scss */
+#title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 95, ../sass/main.scss */
+.left-header {
+  float: left;
+  height: 60px;
+}
+
+/* line 100, ../sass/main.scss */
+.sub-header {
+  border-bottom: 1px solid #485C4B;
+  background-color: #31864c;
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+}
+/* line 107, ../sass/main.scss */
+.sub-header .menu ul {
+  display: none;
+  color: #B2DBA5;
+}
+/* line 111, ../sass/main.scss */
+.sub-header .menu ul li:hover {
+  color: #2E4E31;
+}
+
+/* line 119, ../sass/main.scss */
+.box {
+  display: inline-block;
+  margin: 30px 50px;
+}
+/* line 122, ../sass/main.scss */
+.box li {
+  cursor: pointer;
+}
+/* line 124, ../sass/main.scss */
+.box li:hover {
+  color: #e03037;
+}
+/* line 128, ../sass/main.scss */
+.box p {
+  font-size: 12px;
+}
+/* line 131, ../sass/main.scss */
+.box h5 {
+  color: #579B51;
+}
+
+/* line 136, ../sass/main.scss */
+.card {
+  background-color: #fff;
+  border: solid 1px #DDDCDC;
+  margin: 3px;
+  position: relative;
+  color: #2E4E31;
+}
+
+/* line 144, ../sass/main.scss */
+#news {
+  width: 315px;
+  height: 174px;
+  padding-top: 10px;
+}
+/* line 146, ../sass/main.scss */
+#news li {
+  border-bottom: 1px solid #ECECEC;
+  padding: 6px;
+  cursor: pointer;
+}
+/* line 150, ../sass/main.scss */
+#news li:hover {
+  color: #579B51;
+}
+/* line 154, ../sass/main.scss */
+#news h4 {
+  padding: 6px;
+}
+
+/* line 161, ../sass/main.scss */
+.left {
+  float: left;
+}
+
+/* line 165, ../sass/main.scss */
+.right {
+  float: right;
+}
+
+/* line 169, ../sass/main.scss */
+.r-panel {
+  width: 645px;
+  padding: 6px;
+  padding-left: 17px;
+  padding-top: 15px;
+  height: 163px;
+  float: right;
+}
+
+/* line 178, ../sass/main.scss */
+.featured {
+  padding: 6px;
+  padding-top: 13px;
+  text-align: center;
+  padding-bottom: 17px;
+}
+
+/* line 185, ../sass/main.scss */
+.sub-card {
+  width: 200px;
+  height: 200px;
+  background: white;
+  border: 2px solid #616466;
+  float: left;
+  margin: 5px 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* line 196, ../sass/main.scss */
+.sub-card:hover {
+  border: 2px solid #E03037;
+}
+
+/* line 201, ../sass/main.scss */
+#r1 {
+  background: url("../../img/r1.jpg") no-repeat;
+}
+
+/* line 205, ../sass/main.scss */
+#r2 {
+  background: url("../../img/r2.jpg") no-repeat;
+}
+
+/* line 209, ../sass/main.scss */
+#r3 {
+  background: url("../../img/r3.jpg") no-repeat;
+}
+
+/* line 213, ../sass/main.scss */
+.aligner {
+  width: 896px;
+  margin: auto;
+}
+
+/* line 218, ../sass/main.scss */
+#title {
+  color: #507AA2;
+}
+
+/* line 222, ../sass/main.scss */
+.f-header {
+  text-align: left;
+  padding-bottom: 5px;
+  color: #e03037;
+}
